@@ -2,14 +2,14 @@
 
 #***variables****(will be part of heroku deployer..)
 #devhub
-devhub=MyDevHubTE
+devhub=my-hub-org
 
 #Mark existing org for deletion
 markScratchOrgForDeletion=1
 #ScratchOrdDays
 scratchOrgDays=15
 #alias of scratch org
-alias=FSCADK1
+alias=FSCADK2
 #Set this as default alias
 defaultAlias=1
 #config file for scratch org
@@ -17,6 +17,7 @@ config=config/demo-scratch-def.json
 #package versions 
 pkg1=04t1E000000lU07
 pkg2=04t1E000001Iql5
+lwcpkg=04t1U000005mtw3
 pkgInstallWaitTime=20
 
 

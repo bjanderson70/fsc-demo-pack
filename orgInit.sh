@@ -33,6 +33,10 @@ if [ "$installPkgs" == 1 ] && [ "$errFlag" == 0 ]; then
 	. ./scripts/installPackage.sh $pkg2
 fi
 
+if [ "$installPkgs" == 1 ] && [ "$errFlag" == 0 ]; then
+	. ./scripts/installPackage.sh $lwcpkg
+fi
+
 if [ "$deployMetadata" == 1 ] && [ "$errFlag" -eq 0 ]; then 
 	. ./scripts/deployMetadata.sh $appconfig
 fi
