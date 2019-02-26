@@ -24,6 +24,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <componentInstances>
+            <componentName>adkfsc:adktest</componentName>
+        </componentInstances>
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
