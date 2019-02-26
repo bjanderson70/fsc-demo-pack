@@ -1,4 +1,4 @@
 === Permsets Assigned
 USERNAME                       PERMISSION SET ASSIGNMENT
 ─────────────────────────────  ──────────────────────────────
-test-iimhfnvftpey@example.com  FinancialServicesCloudStandard
+test-c4cexculiuiz@example.com  FinancialServicesCloudStandard
