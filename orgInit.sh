@@ -1,4 +1,5 @@
 #!/bin/bash
+sfdx force:org:delete -u FSCADK2
 
 #create scratch org
 sfdx force:org:create -f config/demo-scratch-def.json -a FSCADK2 --setdefaultusername -d 1
