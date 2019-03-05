@@ -7,11 +7,11 @@ sfdx force:org:create -f config/demo-scratch-def.json -a FSCADK2 --setdefaultuse
 sfdx force:package:install --package 04t1E000000lU0M -w 20 
 sfdx force:package:install --package 04t1E000001Iql5 -w 20
 
-sfdx force:mdapi:deploy --deploydir app-config
+sfdx force:mdapi:deploy --deploydir mdapi-source/app-config
 
-sfdx force:mdapi:deploy --deploydir data-config
+sfdx force:mdapi:deploy --deploydir mdapi-source/data-config
 
-sfdx force:mdapi:deploy --deploydir org-config
+sfdx force:mdapi:deploy --deploydir mdapi-source/org-config
 
 sfdx force:source:push 
 
