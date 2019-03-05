@@ -10,3 +10,5 @@ sfdx force:org:create -f config/demo-scratch-def.json -a FSCADK2 --setdefaultuse
 
 sfdx force:org:open
 
+sfdx force:org:delete
+
