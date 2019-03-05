@@ -1,9 +1,6 @@
 #!/bin/bash
 #initial script for authenticating to devhub, creating scratch org, installing the FSC pckgs and post deploy steps
 
-sfdx force:org:create -f config/demo-scratch-def.json -a FSCADK2 -v Your-Dev-Hub -d 15
-
-
 #Decide which steps to run
 #Create Scratch Org
 createScratchOrg=1
